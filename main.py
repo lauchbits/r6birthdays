@@ -35,11 +35,8 @@ def tweet():
     for name in namelist:
         text = f'Happy Birthday {name}!'
         img = f"r6-operators-list-{name.lower()}.png"
-        print(text, img)
-
 
         mediaID = api.media_upload(f"img/{img}")
-        print(mediaID.media_id)
         client.create_tweet(text=text, media_ids=[mediaID.media_id])
 
 tweet()
