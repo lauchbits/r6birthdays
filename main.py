@@ -2,13 +2,6 @@ import tweepy
 import datetime
 import json
 
-ACCESS_KEY = '1649342617400885251-HYC9IY7ecJ6XRuj7WUhHnSkD9MmMLX'
-ACCESS_SECRET = 'HfYJLXZ6R4d2d3Lwrcc2U3fbGCDDKpOUDDMTA6HnvY7QK'
-CONSUMER_KEY = 'W8z2SCyZUcYKC4onnSm3HvY0V'
-CONSUMER_SECRET = 'l1Nk5nY7SKuszc9xVIqGDFj8tCk8qxjewLsM8MyRxEo9LLHSWy'
-BEARER_TOKEN = r"AAAAAAAAAAAAAAAAAAAAAIiHmwEAAAAAeteZUItJUXCpMVX1sEbMuSu6vZU%3DXDTUVHkrMcyd0lCAC3XRWZjBGfUx7XnMkORW08TuskGsIGabuG"
-
-
 client = tweepy.Client(bearer_token=BEARER_TOKEN,
                     consumer_key=CONSUMER_KEY,
                     consumer_secret=CONSUMER_SECRET,
